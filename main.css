@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    border: dotted 1px black;
+}
+
+#canvases {
+    display: flex;
+    justify-content: center;
+    transform: scaleY(-1);
+}
+
+#display {
+    transform: scaleY(-1);
+}
+
+#sliders {
+    display: flex;
+    width: 900px;
+    left: 0;
+}
+
+#Line {
+    position: absolute;
+    right: 0px;
+    z-index: 2;
+}
+
+#graphCanvases {
+    position: relative;
+}
