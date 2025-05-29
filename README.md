@@ -1,1 +1,2 @@
-The index.html file runs on its own
+# 2D Motion Simulator
+
